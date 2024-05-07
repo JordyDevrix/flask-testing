@@ -5,5 +5,7 @@ ADD . .
 
 RUN pip install flask
 
+EXPOSE 5100d
+
 CMD python app.py
 
